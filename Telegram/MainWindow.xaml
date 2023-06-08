@@ -1,0 +1,108 @@
+﻿<Window x:Class="Telegram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telegram"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.45*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="1">
+                <Button Height="40" Background="#0096FF">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource RedCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+                            
+                            <TextBlock Text="ES" Foreground="White" Margin="11 -29 0 0">
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Eva Summer" Foreground="White"></TextBlock>
+                            <TextBlock Text="Reminds me of a Chinese prover..." FontSize="10" Foreground="White" Margin="0 3 0 50"></TextBlock>
+                        </StackPanel>
+
+
+
+
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="11:00" FontSize="10" Foreground="White"></TextBlock>
+                            <TextBlock>
+                                <Image Source="{StaticResource PushPin}" Margin="5 5 0 0" Width="12"></Image>
+                            </TextBlock>
+                        </StackPanel>
+
+                    </Grid>
+
+                </Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Alexandra Smith</Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Mike Apple</Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Evening Club</Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Old Pirates</Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Max Bright</Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Natalie Parker</Button>
+                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Davy Jones</Button>
+            </StackPanel>
+
+
+
+            <WrapPanel Grid.Row="0">
+                <TextBlock>
+                <Image Source="{StaticResource HamburgerMenu}" Margin="5 0 10 0" Width="20"></Image>
+                </TextBlock>
+
+                <Border CornerRadius="3" Background="#E5E4E2">
+                    <TextBox Background="Transparent" Width="180" Height="25"
+                         BorderBrush="Transparent" Foreground="#808080" VerticalContentAlignment="Center">
+                        Search...
+                    </TextBox>
+                </Border>
+
+
+
+
+            </WrapPanel>
+
+
+
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0">
+                <TextBlock></TextBlock>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+    </Grid>
+</Window>

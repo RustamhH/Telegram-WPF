@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\ham.png" />
+    <None Remove="icons\push pin.png" />
+    <None Remove="icons\red circle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\ham.png" />
+    <Resource Include="icons\push pin.png" />
+    <Resource Include="icons\red circle.png" />
+  </ItemGroup>
+
+</Project>
