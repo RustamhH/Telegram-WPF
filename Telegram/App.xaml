@@ -8,6 +8,18 @@
             <BitmapImage x:Key="HamburgerMenu" UriSource="icons\ham.png"></BitmapImage>
             <BitmapImage x:Key="RedCircle" UriSource="icons\red circle.png"></BitmapImage>
             <BitmapImage x:Key="PushPin" UriSource="icons\push pin.png"></BitmapImage>
+            <BitmapImage x:Key="NewMessage" UriSource="icons\new message.png"></BitmapImage>
+            <BitmapImage x:Key="OrangeCircle" UriSource="icons\orange circle.png"></BitmapImage>
+            <BitmapImage x:Key="YellowCircle" UriSource="icons\yellow circle.png"></BitmapImage>
+            <BitmapImage x:Key="ReadMessage" UriSource="icons\read message.png"></BitmapImage>
+            <BitmapImage x:Key="LaughSticker" UriSource="icons\laughing sticker.png"></BitmapImage>
+            <BitmapImage x:Key="GreenCircle" UriSource="icons\green circle.png"></BitmapImage>
+            <BitmapImage x:Key="UserGroup" UriSource="icons\user group.png"></BitmapImage>
+            <BitmapImage x:Key="CadetBlueCircle" UriSource="icons\cadet blue circle.png"></BitmapImage>
+            <BitmapImage x:Key="DoubleTick" UriSource="icons\double tick.png"></BitmapImage>
+            <BitmapImage x:Key="BlueCircle" UriSource="icons\blue circle.png"></BitmapImage>
+            <BitmapImage x:Key="PurpleCircle" UriSource="icons\purple circle.png"></BitmapImage>
+            <BitmapImage x:Key="PinkCircle" UriSource="icons\pink circle.png"></BitmapImage>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

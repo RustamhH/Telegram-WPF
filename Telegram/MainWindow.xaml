@@ -19,7 +19,12 @@
             </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="1">
-                <Button Height="40" Background="#0096FF">
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+
+                <Button Height="40" Background="#0088CC">
                     <Grid Width="238">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="43*"></ColumnDefinition>
@@ -55,13 +60,296 @@
                     </Grid>
 
                 </Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Alexandra Smith</Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Mike Apple</Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Evening Club</Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Old Pirates</Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Max Bright</Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Natalie Parker</Button>
-                <Button Height="40" Background="Transparent" BorderBrush="Transparent">Davy Jones</Button>
+                
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+                
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource OrangeCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="AS" Foreground="White" Margin="10 -29 0 0">
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Alexandra Smith" Foreground="Black"></TextBlock>
+                            <TextBlock Text="This is amazing!" FontSize="10" Foreground="Gray" Margin="0 3 0 50"></TextBlock>
+                        </StackPanel>
+
+
+
+
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="10:00" FontSize="10" Foreground="Gray"></TextBlock>
+                            <TextBlock>
+                                <Image Source="{StaticResource NewMessage}" Margin="10 3 0 0" Width="15"></Image>
+                            </TextBlock>
+                        </StackPanel>
+
+                    </Grid>
+
+                </Button>
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+
+
+
+
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource YellowCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="MA" Foreground="White" Margin="9 -29 0 0">
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Mike Apple" Foreground="Black"></TextBlock>
+                            <WrapPanel>
+                                <TextBlock Foreground="White">
+                                    <Image Source="{StaticResource LaughSticker}" Width="20" Height="17"></Image>
+                                </TextBlock>
+
+                                <TextBlock Text="Sticker" FontSize="10" Foreground="#0088CC" Margin="3 2 0 50"></TextBlock>
+                            </WrapPanel>
+                            
+                        </StackPanel>
+
+
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="09:00" FontSize="10" Foreground="Gray"></TextBlock>
+                            <TextBlock>
+                                <Image Source="{StaticResource ReadMessage}" Margin="10 3 0 0" Width="15"></Image>
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
+
+                </Button>
+
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+
+
+
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource GreenCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="EC" Foreground="White" Margin="10 -29 0 0"></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Evening Club" Foreground="Black" Margin="20 0 0 0"></TextBlock>
+                            <TextBlock Text="Eva: Photo" FontSize="10" Foreground="#0088CC" Margin="0 3 0 50"></TextBlock>
+                            
+                        </StackPanel>
+
+                        <TextBlock Grid.Column="1" Height="15" Width="15" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <Image Source="{StaticResource UserGroup}"></Image>
+                        </TextBlock>
+
+
+                        <TextBlock Grid.Column="2" Text="08:00" FontSize="10" Foreground="Gray"></TextBlock>
+                        
+
+                    </Grid>
+
+                </Button>
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+                
+                
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource CadetBlueCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="OP" Foreground="White" Margin="10 -29 0 0"></TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Old Pirates" Foreground="Black" Margin="20 0 0 0"></TextBlock>
+                            <WrapPanel>
+                                <TextBlock Text="Max: " FontSize="10" Foreground="#0088CC" Margin="0 3 0 50"></TextBlock>
+                                <TextBlock Text="Yo-ho-ho!" FontSize="10" Foreground="Gray" Margin="0 3 0 50"></TextBlock>
+                                
+                            </WrapPanel>
+
+                        </StackPanel>
+
+                        <TextBlock Grid.Column="1" Height="15" Width="15" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                <Image Source="{StaticResource UserGroup}"></Image>
+                        </TextBlock>
+
+
+                        <TextBlock Grid.Column="2" Text="07:00" FontSize="10" Foreground="Gray"></TextBlock>
+
+
+                    </Grid>
+
+                </Button>
+
+                
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource BlueCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="MB" Foreground="White" Margin="9 -29 0 0">
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Max Bright" Foreground="Black"></TextBlock>
+                            <TextBlock Text="How about some coffee?" FontSize="10" Foreground="Gray" Margin="0 3 0 50"></TextBlock>
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Column="1">
+                                <Image Source="{StaticResource DoubleTick}" Margin="143 0 0 0" Width="12"></Image>
+                        </TextBlock>
+
+                        <TextBlock Grid.Column="2" Text="06:00" FontSize="10" Foreground="Gray"></TextBlock>
+
+                    </Grid>
+
+                </Button>
+
+
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource PurpleCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="NP" Foreground="White" Margin="10 -29 0 0">
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Natalie Parker" Foreground="Black"></TextBlock>
+                            <TextBlock Text="OK,great)" FontSize="10" Foreground="Gray" Margin="0 3 0 50"></TextBlock>
+                        </StackPanel>
+
+
+                        <TextBlock Grid.Column="1">
+                                <Image Source="{StaticResource DoubleTick}" Margin="143 0 0 0" Width="12"></Image>
+                        </TextBlock>
+
+                        <TextBlock Grid.Column="2" Text="05:00" FontSize="10" Foreground="Gray"></TextBlock>
+
+                    </Grid>
+
+                </Button>
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+
+                <Button Height="40" Background="Transparent">
+                    <Grid Width="238">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*"></ColumnDefinition>
+                            <ColumnDefinition Width="159*"></ColumnDefinition>
+                            <ColumnDefinition Width="36*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Foreground="White">
+                                <Image Source="{StaticResource PinkCircle}" Width="35" Height="40" Margin="0 -3 0 0"></Image>
+                            </TextBlock>
+
+                            <TextBlock Text="DJ" Foreground="White" Margin="10 -29 0 0">
+                            </TextBlock>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1">
+                            <TextBlock Text="Davy Jones" Foreground="Black"></TextBlock>
+                            <TextBlock Text="Keynote.pdf" FontSize="10" Foreground="#0088CC" Margin="0 3 0 50"></TextBlock>
+                        </StackPanel>
+
+
+                       
+
+                        <TextBlock Grid.Column="2" Text="04:00" FontSize="10" Foreground="Gray"></TextBlock>
+
+                    </Grid>
+
+                </Button>
+
+
+                <!--    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////        -->
+                
+                
             </StackPanel>
 
 

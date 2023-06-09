@@ -8,15 +8,48 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="icons\blue circle.png" />
+    <None Remove="icons\cadet blue circle.png" />
+    <None Remove="icons\double tick.png" />
+    <None Remove="icons\green circle.png" />
     <None Remove="icons\ham.png" />
+    <None Remove="icons\laughing sticker.png" />
+    <None Remove="icons\new message.png" />
+    <None Remove="icons\orange circle.png" />
+    <None Remove="icons\pink circle.png" />
+    <None Remove="icons\purple circle.png" />
     <None Remove="icons\push pin.png" />
+    <None Remove="icons\read message.png" />
     <None Remove="icons\red circle.png" />
+    <None Remove="icons\user group.png" />
+    <None Remove="icons\yellow circle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\blue circle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\cadet blue circle.png" />
+    <Resource Include="icons\double tick.png" />
+    <Resource Include="icons\green circle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\laughing sticker.png" />
+    <Resource Include="icons\pink circle.png" />
+    <Resource Include="icons\purple circle.png" />
+    <Resource Include="icons\read message.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="icons\ham.png" />
+    <Resource Include="icons\new message.png" />
+    <Resource Include="icons\orange circle.png" />
     <Resource Include="icons\push pin.png" />
     <Resource Include="icons\red circle.png" />
+    <Resource Include="icons\user group.png" />
+    <Resource Include="icons\yellow circle.png" />
   </ItemGroup>
 
 </Project>
