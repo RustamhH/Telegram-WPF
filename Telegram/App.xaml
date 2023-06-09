@@ -20,6 +20,11 @@
             <BitmapImage x:Key="BlueCircle" UriSource="icons\blue circle.png"></BitmapImage>
             <BitmapImage x:Key="PurpleCircle" UriSource="icons\purple circle.png"></BitmapImage>
             <BitmapImage x:Key="PinkCircle" UriSource="icons\pink circle.png"></BitmapImage>
+            <BitmapImage x:Key="Clip" UriSource="icons\clip.png"></BitmapImage>
+            <BitmapImage x:Key="Search" UriSource="icons\search.png"></BitmapImage>
+            <BitmapImage x:Key="Smile" UriSource="icons\smile.png"></BitmapImage>
+            <BitmapImage x:Key="VerticalMenu" UriSource="icons\vertical menu.png"></BitmapImage>
+            <BitmapImage x:Key="VoiceRecorder" UriSource="icons\voice recorder.png"></BitmapImage>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
